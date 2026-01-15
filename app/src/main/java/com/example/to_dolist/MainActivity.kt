@@ -3,7 +3,6 @@ package com.example.to_dolist
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.to_dolist.databinding.ActivityMainBinding
