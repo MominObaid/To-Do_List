@@ -69,4 +69,9 @@ class TaskDbHelper(context: Context) :
         db.delete(DbConstants.TABLE_NAME, "${DbConstants.COL_TASK_NAME} = ?", arrayOf(taskName))
         db.close()
     }
+    fun deleteAllTasks(){
+        val db = this.writableDatabase
+        db.delete(DbConstants.TABLE_NAME,null ,null)
+        db.close()
+    }
 }
